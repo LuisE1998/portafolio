@@ -1,5 +1,5 @@
 .primary-btn {
-  margin-top: 2rem;
+  margin  : 2rem;
   padding: 14px 32px;
   border-radius: 999px; /* 🔥 ultra redondeado */
   border: none;
@@ -21,6 +21,26 @@
 .primary-btn:active {
   transform: translateY(0);
   box-shadow: 0 5px 15px rgba(108, 99, 255, 0.3);
+}
+
+.secondary-btn {
+  padding: 0.9rem 1.6rem;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid #666;
+  color: #fff;
+}
+
+.secondary-btn:hover {
+  background: rgba(255,255,255,0.08);
+  transform: translateY(-2px);
 }
 
 .language-btn {
