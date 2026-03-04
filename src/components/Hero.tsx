@@ -15,6 +15,13 @@ const Hero = () => {
         }}>
           {t.contactMe}
         </button>
+        <a
+            href="/CV_Luis_Ruiz.pdf"
+            download
+            className="secondary-btn"
+          >
+            {t.downloadCV || "Download CV"}
+          </a>
       </div>
     </section>
   );
