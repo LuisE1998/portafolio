@@ -10,10 +10,10 @@ const About = () => {
             <h2>{t.aboutMe}</h2>
             <p>{t.aboutMeResume}</p>
             <button className="primary-btn" onClick={() => {
-                const section = document.getElementById("projects");
+                const section = document.getElementById("skills");
                 section?.scrollIntoView({ behavior: "smooth" });
                 }}>
-                    {t.myProyects}
+                    {t.skills}
             </button>
         </div>
         </section>
